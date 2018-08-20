@@ -1,0 +1,11 @@
+34.028455, -118.280409 : 742 W 27th St
+34.021852, -118.282831 : Leavey Library
+34.019641, -118.288803 : Science & Engineering Library
+34.022772, -118.287832 : Brittingham Intramural Field
+34.016973, -118.288772 : Natural History Museum of Los Angeles County
+34.015830, -118.286216 : California Science Center
+34.014101, -118.287876 : Ecosistema California Siencia Center
+34.020689, -118.289684 : Olin Hall of Engineering
+34.020468, -118.286231 : Panda Express
+34.023953, -118.288431 : Uytengsu Aquatics Center
+

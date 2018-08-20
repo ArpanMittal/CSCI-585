@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark>
+    <name> Convex Hull</name>
+
+     <Polygon>
+      <altitudeMode>relativeToGround</altitudeMode>
+       <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+            -118.287876,34.014101
+            -118.288772,34.016973
+            -118.289684,34.020689
+            -118.288431,34.023953
+            -118.280409,34.028455
+            -118.282831,34.021852
+            -118.286216,34.01583
+            -118.287876,34.014101
+          </coordinates>
+      </LinearRing>
+    </outerBoundaryIs>
+  </Polygon>
+</Placemark>
+
+<Placemark>
+    <name>ODD SEGMENT</name>
+    <Style>
+    <LineStyle>
+      <color>7fff0000</color>
+      <width>8</width>
+    </LineStyle>
+  </Style>
+     <Polygon>
+      <altitudeMode>relativeToGround</altitudeMode>
+       <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+            -118.287876,34.014101
+            -118.288772,34.016973
+            -118.288803,34.019641
+            -118.280409,34.028455
+            -118.287876,34.014101
+          </coordinates>
+      </LinearRing>
+    </outerBoundaryIs>
+  </Polygon>
+</Placemark>
+
+<Placemark>
+    <name>EVEN SEGMENT</name>
+    <Style>
+    <LineStyle>
+      <color>501400FF</color>
+      <width>8</width>
+    </LineStyle>
+  </Style>
+     <Polygon>
+      <altitudeMode>relativeToGround</altitudeMode>
+       <outerBoundaryIs>
+         <LinearRing>
+          <coordinates>
+            -118.286216,34.01583
+            -118.289684,34.020689
+            -118.288431,34.023953
+            -118.282831,34.021852
+            -118.286216,34.01583
+          </coordinates>
+      </LinearRing>
+    </outerBoundaryIs>
+  </Polygon>
+</Placemark>
+
+<Placemark><name>Moon Apt</name>
+ <description> My apartment  </description>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.280409,34.028455</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey Library</name>
+<description> Beautiful library  </description>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282831,34.021852</coordinates></Point>
+</Placemark>
+<Placemark><name>Science Library</name>
+<description> Palace to study </description>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288803,34.019641</coordinates></Point>
+</Placemark>
+<Placemark><name>Brittingham Field</name>
+<description> Beautiful field  </description>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287832,34.022772</coordinates></Point>
+</Placemark>
+<Placemark><name>NaturalHistory Museum</name>
+<description> Wonderful museum  </description>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288772,34.016973</coordinates></Point>
+</Placemark>
+<Placemark><name>CA Science Center</name>
+<description> CA famous for  </description>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286216,34.015830</coordinates></Point>
+</Placemark>
+<Placemark><name>Ecosistema Center</name>
+<description> Want to visit  </description>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.287876,34.014101</coordinates></Point>
+</Placemark>
+<Placemark><name>Olin Hall</name>
+<description> lecture hall </description>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.289684,34.020689</coordinates></Point>
+</Placemark>
+<Placemark><name>Panda Express</name>
+<description> food </description>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286231,34.020468</coordinates></Point>
+</Placemark>
+<Placemark><name>Aquatics Center</name>
+<description> beautiful view </description>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288431,34.023953</coordinates></Point>
+</Placemark>
+</Document></kml>

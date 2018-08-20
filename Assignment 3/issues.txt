@@ -1,0 +1,13 @@
+ISSUES FACED DURING THE ASSIGNMENT
+Google maps give coordinates in opposite way.Then the way which required by KML file
+
+In Postgres we need to get the extensions of postgis that is we need to enable it if we donot do that this issue appear
+HINT showing No function matches the given name and argument types. You might need to add explicit type casts.
+
+CREATE EXTENSION postgis;
+
+Need to do this first
+
+For bonus questions I need to change the factor of 10 times to 0.0005 as they coordinate comes using that factor are really far apart from center. 
+
+

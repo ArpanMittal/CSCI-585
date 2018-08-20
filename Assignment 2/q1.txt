@@ -1,0 +1,11 @@
+
+SELECT DISTINCT m.USER_ID as USER_ID, m.FNAME as FNAME, m.LNAME as LNAME
+FROM ( SELECT u.USER_ID as USER_ID,  u.FNAME as FNAME, u.LNAME as LNAME 
+      FROM FRIENDSHIPS f JOIN USERS u ON
+      f.INVITEE_ID = u.USER_ID AND f.STATUS = '1' AND f.INVITER_ID = 5 AND f.INVITEE_ID != f.INVITER_ID
+      UNION
+      SELECT u.USER_ID as USER_ID,  u.FNAME as FNAME, u.LNAME as LNAME
+      FROM FRIENDSHIPS f JOIN USERS u ON
+      f.INVITER_ID = u.USER_ID AND f.STATUS = '1' AND f.INVITEE_ID = 5 AND f.INVITEE_ID != f.INVITER_ID) m;
+      
+      Friends can be exist in two ways one he send request and other way when he receives request but due to database limitations we can have repeated friends so to remove this I used distinct. Also a person can't be friend of himself but given schema allow this so to remove this I added condition that inviter and invitee can't be same.
